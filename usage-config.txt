@@ -1,0 +1,11 @@
+Usage: npkg config [OPTS] get KEY          get a config value
+       npkg config [OPTS] set KEY=VAL      set a config value
+       npkg config [OPTS] rm KEY           remove config value
+       npkg config [OPTS] list             list all config keys
+       npkg config [OPTS] cat              list all key=value pairs
+       npkg config        gen KEY          interpolate a config
+
+   OPTIONS
+
+       --name=NAME/-n NAME   name of package (or default)
+

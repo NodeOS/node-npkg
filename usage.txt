@@ -2,13 +2,18 @@ Usage: npkg COMMAND TARGET
 
   Commands
 
-    install        install package TARGET from npm
-    start          start package TARGET via init
-    stop           stop running package TARGET via init
-
-    config         manipulate config from command line
-
-  Environment
-
-    PORT           the port used to connect to init (Default 1)
-    BIND           the address init has bound to (Default localhost)
+    install            install package TARGET from npm
+    run                run a package in the foreground
+    show               list installed packages
+    
+    start              start package TARGET via init
+    stop               stop running package TARGET via init
+    list               list active jobs
+    status             list an active jobs status
+    
+    config             manipulate config from command line
+    
+  Environment    
+    
+    NPKG_PORT/PORT     the port used to connect to init (Default 1)
+    NPKG_HOST/HOST     the address init has bound to (Default localhost)
